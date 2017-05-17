@@ -26,9 +26,10 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
-	compile group: 'io.zipkin.brave', name: 'brave', version: '4.3.0'
-	compile group: 'io.zipkin.brave', name: 'brave-context-slf4j', version: '4.3.0'
-	compile group: 'io.zipkin.brave', name: 'brave-instrumentation-httpclient', version: '4.3.0'
+	compile group: 'io.zipkin.brave', name: 'brave', version: '4.3.1'
+	compile group: 'io.zipkin.brave', name: 'brave-context-slf4j', version: '4.3.1'
+	compile group: 'io.zipkin.brave', name: 'brave-instrumentation-httpclient', version: '4.3.1'
+	compile group: 'io.zipkin.brave', name: 'brave-instrumentation-spring-webmvc', version: '4.3.1'
 	compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
